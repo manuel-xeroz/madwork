@@ -852,27 +852,7 @@ textarea.input100 {
 }
 
 
-.hero-text-box h1 p{
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .10em solid rgba(0, 145, 255, 0); /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0px 240px 0px 120px; /* Gives that scrolling effect as the typing happens */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgba(0, 145, 255, 0) }
-}
 
 .address {
     padding: 50px 0;
@@ -950,3 +930,7 @@ footer p {
     font-size: 80%;
     color: #1f222b;
 }
+
+
+.soco {  border-right: .05em solid;  animation: caret 1s steps(1) infinite;}
+@keyframes caret {  50% {    border-color: transparent;  }}
