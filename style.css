@@ -157,9 +157,10 @@ h4{
     transform: translate(-50%, -50%);
 }
 .text2 {
-    margin-left: 120px;
+    margin-left: -120px;
     text-decoration: underline;
     text-decoration-color: rgba(0, 145, 255, 0.2);
+    text-align: center;
 }
 
 .text1 {
@@ -850,9 +851,6 @@ textarea.input100 {
     display: flex;
     height: 550px;
 }
-
-
-
 
 .address {
     padding: 50px 0;
