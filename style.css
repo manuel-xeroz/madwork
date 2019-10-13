@@ -146,7 +146,7 @@ h4{
    background-color: white;
     font-family: 'helveticaNeue', sans-serif;
     text-transform: lowercase;
-    color: #f0eaea;
+    color: #f1f1f1;
     position: absolute;
     z-index:-0.5;
     font-size: 1250%;
@@ -190,7 +190,7 @@ h4{
 .mobile-navi-icon {
     position: absolute;
     margin-top: 45px;
-    margin-left: 1000px;
+    margin-left: 1020px;
     font-size: 150%;
     color: black;
 }
@@ -737,14 +737,14 @@ input[type="submit"] {
   letter-spacing: 3.5px;
   color: rgba(31, 34, 43, 0.5);
   padding-left: 5px;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .input100 {
   display: block;
   width: 100%;
-  background: transparent;
-  font-family: Poppins-Medium;
+  background-color: #f6f7f9;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #333333;
   line-height: 1.2;
@@ -848,17 +848,18 @@ textarea.input100 {
 }
 .add {
     display: flex;
+    height: 550px;
 }
 
 
 .hero-text-box h1 p{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgba(0, 145, 255, 0); /* The typwriter cursor */
+  border-right: .10em solid rgba(0, 145, 255, 0); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 120px; /* Gives that scrolling effect as the typing happens */
+  margin: 0px 240px 0px 120px; /* Gives that scrolling effect as the typing happens */
   animation: 
     typing 3.5s steps(40, end),
-    blink-caret .75s step-end 3s;
+    blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
@@ -871,4 +872,81 @@ textarea.input100 {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: rgba(0, 145, 255, 0) }
+}
+
+.address {
+    padding: 50px 0;
+}
+.address h4 {
+    margin-top: 50px;
+}
+
+.address h4:first-child {
+    margin-top: 70px;
+}
+
+.address p {
+    margin-left: 170px;
+    font-size: 80%;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+footer {
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 80%;
+}
+
+footer p {
+    color: #1f222b;;
+    text-align: center;
+    opacity: 0.5;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+
+.nav-links {
+    float: left;
+    margin-left: 80px;
+    list-style: none;
+}
+
+
+.nav-links li{
+    display: inline-block;
+    margin-right: 50px;
+    text-transform: uppercase;
+    font-size: 80%;
+    color: #1f222b;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a:link,
+.nav-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #1f222b;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    opacity: 0.5;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.nav-links li a:hover,
+.nav-links li a:active {
+    color: #0091ff;
+}
+
+.copy{
+    font-size: 80%;
+    color: #1f222b;
 }
