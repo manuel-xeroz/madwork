@@ -26,3 +26,4 @@ setTimeout(function() {
       // after callback (and whole text has been animated), start next text       
       StartTextAnimation(i + 1);     });    }  }  // start the text animation  
       StartTextAnimation(0);});
+
