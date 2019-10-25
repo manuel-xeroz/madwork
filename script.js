@@ -28,10 +28,14 @@ setTimeout(function() {
       StartTextAnimation(0);});
 
 
-
+const elements = document.querySelector('.elements');
 const cursor = document.querySelector('.cursor');
 document.addEventListener('mousemove', e => {
     cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('mousemove', e => {
+    elements.setAttribute("style", "margin-left: "+(e.pageX * 0.01)+"px;")
 })
 
 document.addEventListener('click', () => {
