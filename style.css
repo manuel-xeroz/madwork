@@ -33,16 +33,16 @@ body {
 .row {
     max-width: 1300px;
     margin: 0 auto;
-    
+
 }
 
 header {
-    background-color: white; 
+    background-color: white;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     height: 100vh;
-    
+
 }
 
 h1,h2,h3 {
@@ -108,14 +108,14 @@ h4{
   width: 20px;
   height: 1px;
   border: solid 1px #000000;
-    
+
 }
 
 
 
 .hero-text-box {
     position: absolute;
-    width: 1140px;                                                  
+    width: 1140px;
     top: 70%;
     left: 47%;
     -webkit-transform: translate(-50%, -50%);
@@ -144,13 +144,13 @@ h4{
     list-style: none;
     margin-top: 55px;
     margin-right: 450px;
-    
+
 }
 
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
-    
+
 }
 
 .main-nav li a:link,
@@ -163,12 +163,12 @@ h4{
     font-size: 66%;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 1s;
-    transition: border-bottom 1s;   
+    transition: border-bottom 1s;
 }
- 
+
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #0091ff; 
+    border-bottom: 2px solid #0091ff;
 }
 
 .logo {
@@ -196,10 +196,10 @@ h4{
     top: 52%;
     left: 76%;
     transform: translate(-50%, -50%);
-    
+
 }
 .overlay img {
-    
+
 }
 .elements {
     top: 45%;
@@ -215,8 +215,8 @@ h4{
     text-decoration-color: rgba(0, 145, 255, 0.2);
     font-size: 375%;
     font-weight: 300;
-    
-    
+
+
 }
 
 .light {
@@ -229,9 +229,9 @@ h4{
     letter-spacing: normal;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #8c8d91; 
+    color: #8c8d91;
     font-size: 100.5%;
-    
+
 }
 
 .talk{
@@ -244,7 +244,7 @@ h4{
     font-size: 80%;
     font-weight: 500;
     font-family: 'Work Sans', sans-serif;
-    
+
 }
 
 .row a{
@@ -279,10 +279,10 @@ h4{
 }
 
 .create {
-    width: 40%; 
+    width: 40%;
     padding: 20px 0px 0 165px;
     float: left;
-    
+
 }
 
 .create p {
@@ -346,7 +346,7 @@ h4{
     padding: 12px 12px 12px 16px;
     color: white;
     font-family: 'HelveticaNeue', sans-serif;
-    
+
 }
 
 .brandB {
@@ -398,6 +398,7 @@ h4{
 
 .sect_work {
     background-color: #000000;
+    background-image: url("elements/lines.svg");
     padding: 85px 110px 70px 110px;
 }
 
@@ -420,7 +421,7 @@ h4{
     height: 360px;
     width: 100%;
     overflow: hidden;
-    background-color: black;   
+    background-color: black;
 }
 
 .image img {
@@ -444,7 +445,7 @@ h4{
 
 .work2 {
      margin-top: 5px;
-} 
+}
 .work3 {
     margin-top: 5px;
     margin-bottom: 50px;
@@ -539,7 +540,7 @@ h4{
     width: 100%;
     height: 550px;
     object-fit: cover;
-    
+
 }
 .add {
     display: flex;
@@ -571,7 +572,7 @@ footer {
     padding: 50px;
     background-color: #ffffff;
     font-size: 80%;
-    
+
 }
 
 footer p {
@@ -638,7 +639,7 @@ footer p {
     display: flex;
     padding: 30px 120px;
     flex-direction: row;
-    
+
 }
 
 .des{
