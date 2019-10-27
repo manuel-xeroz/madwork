@@ -290,6 +290,9 @@ h4{
 .sect_about .container-r .title{
   padding-top: 109px;
 }
+.sect_about .container-r {
+  padding-bottom: 109px;
+}
 
 .sub-title{
   margin-left: 50px;
@@ -964,5 +967,54 @@ footer p {
 .services{
   width:100%;
   height: 265px;
-  background: red;
+  margin-top: 30px;
+}
+
+.service{
+  width: 263px;
+  height: 100%;
+  float:left;
+}
+.service:not(:last-child){
+  margin-right: 29.3px;
+}
+
+.heading{
+  width: 225px;
+  height: 44px;
+  margin: 18px 19px;
+}
+.alphabet{
+  background: blue;
+  width: 44px;
+  height: 44px;
+  margin-right: 15px;
+  float: left;
+  line-height: 44px;
+  text-align: center;
+}
+.alphabet img{
+  vertical-align: middle;
+  margin: 0px auto;
+}
+.fullservice{
+  float: left;
+  line-height: 44px;
+  font-family: "Work sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.service-list{
+  margin: 30px 18px 0px;
+  width: 225px;
+}
+.service-list p{
+  font-family: "Work sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #989898;
+
+}
+.service-list p:not(:last-child){
+  padding-bottom: 14px;
 }
