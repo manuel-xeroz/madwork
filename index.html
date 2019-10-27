@@ -143,11 +143,11 @@
             <p class="work_text">A tip of the iceberg</p>
         </div>
         <div class="row work">
-            <div class="col span-1-of-2 image">
-                <img src="rectangle@3x.jpg">
+            <div class="col span-1-of-2 imageA">
+               <div class="3d"><img src="rectangle@3x.jpg"></div>
             </div>
-            <div class="col span-1-of-2 image">
-                <img class="img_work" src="rectangle-copy-10@3x.jpg">
+            <div class="col span-1-of-2 imageB">
+               <div class="3d"><img class="img_work" src="rectangle-copy-10@3x.jpg"></div> 
             </div>
         </div>
         <div class="row work2">
@@ -156,11 +156,11 @@
             </div>
         </div>
          <div class="row work3">
-            <div class="col span-1-of-2 image">
-                <img src="rectangle-copy-11@3x.jpg">
+            <div class="col span-1-of-2 imageC">
+                <div class="3d"><img src="rectangle-copy-11@3x.jpg"></div>
             </div>
-            <div class="col span-1-of-2 image">
-                <img class="img_work" src="rectangle-copy-12@3x.jpg">
+            <div class="col span-1-of-2 imageD">
+                <div class="3d"><img class="img_work" src="rectangle-copy-12@3x.jpg"></div>
             </div>
         </div>
         <i class="fas fa-plus plus"></i>
@@ -203,6 +203,38 @@
             </div>
         </div>
     </footer>
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="dist/js/jquery.hover3d.js" ></script>
 </body>
 </html>
 <script src="script.js"></script>
+<script>
+		$(document).ready(function(){
+			$(".imageA").hover3d({
+				selector: ".3d",
+	            sensitivity: 30,
+			});
+
+            $(".imageB").hover3d({
+				selector: ".3d",
+                sensitivity: 30,
+			});
+            
+            $(".imageC").hover3d({
+				selector: ".3d",
+                sensitivity: 30,
+			});
+            
+            $(".imageD").hover3d({
+				selector: ".3d",
+                sensitivity: 30,
+			});
+            
+			$(".work2").hover3d({
+				selector: ".image2",
+                sensitivity: 80,
+			});
+		});
+
+	</script>
