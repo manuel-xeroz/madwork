@@ -38,6 +38,7 @@ body {
 
 header {
     background-color: white;
+    background: url(elements/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -52,10 +53,9 @@ h1 {
     margin-top: 0;
     margin-bottom: 0px;
     color: #0091ff;
-    word-spacing: 4px;
-    font-size: 250%;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: normal;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -116,26 +116,26 @@ h4{
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 70%;
-    left: 47%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin-top: 218px;
 }
 
 .product {
-   width: 98%;
-    height: 120px;
-    background-color: #ffffff;
+    width: 504px;
+    height: 100px;
     border-left-color: #0091ff;
-    border-left-width: 3px;
+    border-left-width: 2px;
     border-left-style: solid;
-    margin-left: 8px;
+    margin-left: 0px;
     font-family: 'Work sans', sans-serif;
-    padding: 10px;
-    font-weight: 300;
-    margin-top: 50px;
-    font-size: 112%;
-    color: #8c8d91;
+    padding: 8px 0px 8px 20px;
+    font-weight: 200;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #000000;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
 }
 
 .main-nav {
@@ -215,14 +215,22 @@ h4{
     margin-left: 5px;
     text-decoration: underline;
     text-decoration-color: rgba(0, 145, 255, 0.2);
-    font-size: 375%;
+    font-size: 60px;
     font-weight: 300;
+    font-family: "Work sans", sans-serif;
+}
 
-
+.caption{
+  font-size: 60px;
+  font-weight: 300;
+  font-family: "Work sans", sans-serif;
+}
+.caption span{
+  background: rgb(0, 145, 255, 0.1)
 }
 
 .light {
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .text1 {
@@ -259,21 +267,21 @@ h4{
     font-size: 150%;
 }
 
-
-
 .icon_sect {
     display: flex;
+    background: #fff;
+    padding: 10px;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     text-align: end;
-    top: 73%;
-    left: 98%;
+    bottom: 40px;
+    right: 0px;
 }
 
 .icons {
-    margin-top: 14px;
-    color: #8c8d91;
-    font-size: 63%;
+    margin-top: 20px;
+    color: #000;
+    font-size: 12px;
 }
 
 .sect_about {
@@ -787,9 +795,19 @@ footer p {
   height: 66px;
   margin: 40px 0px 0px 0px;
 }
+.maincontainer{
+  width: 100%;
+  height: 662px;
+}
 .madheader-inner{
   max-width: 1140px;
   height: 66px;
+  margin: 0px auto;
+}
+.container{
+  position: relative;
+  max-width: 1140px;
+  height: 662px;
   margin: 0px auto;
 }
 .madlogo{
@@ -830,4 +848,56 @@ footer p {
   width: 30px;
   margin-left: 70px;
   vertical-align: middle;
+}
+.start{
+  margin-top: 30px;
+  width: 255px;
+}
+.start a{
+    text-decoration: none;
+    display: block;
+    width: 255px;
+    height: 50px;
+}
+.linktext{
+  width: 180px;
+  background: #0091FF;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Work sans", sans-serif;
+  font-weight: 300;
+  float: left;
+}
+.linkarrow{
+  height: 50px;
+  width: 74px;
+  background: #0091FF;
+  padding: 14px 20px 0px;
+  float: left;
+  margin-left: 1px;
+}
+.scroll{
+  margin-top: 72px;
+}
+
+@keyframes play240 {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -7680px 0px;
+  }
+}
+.shapeshifter {
+  animation-duration: 4000ms;
+  animation-timing-function: steps(240);
+  width: 32px;
+  height: 40px;
+  background-repeat: no-repeat;
+  animation-iteration-count:infinite;
+}
+.shapeshifter.play {
+  animation-name: play240;
 }
