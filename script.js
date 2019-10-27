@@ -7,7 +7,7 @@ function typeWriter(text, i, fnCallback) {
 // chekc if text isn't finished yet   
 if (i < (text.length)) {     
 // add next character to h1    
-document.querySelector(".anim").innerHTML = text.substring(0, i+1) +'<span class="soco" aria-hidden="true"></span>';      
+document.querySelector(".anim").innerHTML = text.substring(0, i+1);      
 // wait for a while and call this function again for next character     
 setTimeout(function() {       
    typeWriter(text, i + 1, fnCallback)      }, 150);    }   
