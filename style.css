@@ -37,7 +37,6 @@ body {
 }
 
 header {
-    background-color: white;
     background: url(elements/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -704,6 +703,8 @@ footer p {
     height: 530px;
     background-image: url(house@3x.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     padding: 150px 200px;
 }
 
@@ -799,6 +800,48 @@ footer p {
   width: 100%;
   height: 662px;
 }
+.recognition{
+  width: 100%;
+  background: #f9f9f9;
+  height: 186px;
+}
+.title{
+  padding: 40px 0px 0px 0px;
+  margin-left: 50px;
+  line-height: 14px;
+
+}
+.title span{
+  font-size: 14px;
+  font-family: "Work sans", sans-serif;
+  font-weight: 300;
+  padding-left: 20px;
+}
+.title img{
+  vertical-align: middle;
+}
+.brands{
+  width: 1140px;
+  height: 60px;
+  margin: 30px auto;
+}
+.brands img{
+  vertical-align: middle;
+  height: 60px;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all .6s ease;
+  -webkit-backface-visibility: hidden;
+}
+.brands img:hover{
+  filter: white;
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: all .6s ease;
+  -webkit-backface-visibility: hidden;
+}
+.brands img:not(:last-child){
+    padding-right:42px;
+}
 .madheader-inner{
   max-width: 1140px;
   height: 66px;
@@ -808,6 +851,11 @@ footer p {
   position: relative;
   max-width: 1140px;
   height: 662px;
+  margin: 0px auto;
+}
+.container-r{
+  position: relative;
+  max-width: 1140px;
   margin: 0px auto;
 }
 .madlogo{
