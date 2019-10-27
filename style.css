@@ -995,8 +995,6 @@ footer p {
   
 
 
-
-=======
 .services{
   width:100%;
   height: 265px;
@@ -1051,4 +1049,4 @@ footer p {
 .service-list p:not(:last-child){
   padding-bottom: 14px;
 }
->>>>>>> 82f8d5ff9e3ff9cb8aaaa1a7ec0624d8588b394e
+
