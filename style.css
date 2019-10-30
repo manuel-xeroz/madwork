@@ -20,16 +20,6 @@ body {
     overflow-x: hidden;
 }
 
-.clearfix {zoom: 1}
-.clearfix:after {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-
-
 .row {
     max-width: 1300px;
     margin: 0 auto;
@@ -42,7 +32,6 @@ header {
     background-attachment: fixed;
     background-position: center;
     height: 100vh;
-
 }
 
 h1,h2,h3 {
@@ -438,28 +427,44 @@ h4{
 }
 
 
-.imageA,
-.imageB,
-.imageC,
-.imageD{
+.image{
     margin: 0;
     height: 360px;
     width: 100%;
     overflow: hidden;
     background-color: black;
 }
-.imageA img,
-.imageB img,
-.imageC img,
-.imageD img {
+.image img{
     width: 100%;
     height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    opacity: 0.8;
+}
+
+.image img:hover {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 1;
 }
 
 
 .image2 img {
     width: 100%;
     height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    opacity: 0.8;
 }
 
 .image2 {
@@ -470,11 +475,19 @@ h4{
     background-color: black;
 }
 
+.image2 img:hover {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 1;
+}
+
 .work2 {
-     margin-top: 5px;
+     margin-top: 3px;
 }
 .work3 {
-    margin-top: 5px;
+    margin-top: 3px;
     margin-bottom: 50px;
 }
 .more {
@@ -969,30 +982,6 @@ footer p {
   animation-name: play240;
 }
 
-<<<<<<< HEAD
-
-.imageA,
-.imageB,
-.imageC,
-.imageD{
-    position: relative;
-    transition: box-shadow .3s ease;
-    box-shadow: 0 10px 30px transparent; }
-    .imageA.hover-in,
-    .imageB.hover-in,
-    .imageC.hover-in,
-    .imageD.hover-in {
-      transition: -webkit-transform .2s ease-out;
-      transition: transform .2s ease-out;
-      transition: transform .2s ease-out, -webkit-transform .2s ease-out; }
-    .imageA.hover-out,
-    .imageB.hover-out,
-    .imageC.hover-out,
-    .imageD.hover-out {
-      transition: -webkit-transform .2s ease-in;
-      transition: transform .2s ease-in;
-      transition: transform .2s ease-in, -webkit-transform .2s ease-in; }
-  
 
 
 .services{
@@ -1050,3 +1039,12 @@ footer p {
   padding-bottom: 14px;
 }
 
+
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #0091ff url('833 (2).gif') no-repeat center;
+    z-index: 99999;
+}
