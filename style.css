@@ -569,13 +569,16 @@ h4{
 }
 
 .address {
+    z-index: 99999;
     width: 40%;
     background-color: #0091ff;
     height: 514px;
 }
 
 .map {
-    width: 60%;
+    position: absolute;
+    width: 883px;
+    margin-left: 440px;
 }
 
 .map img{
@@ -1047,4 +1050,10 @@ footer p {
     height: 100vh;
     background: #0091ff url('833 (2).gif') no-repeat center;
     z-index: 99999;
+}
+
+.view-link {
+
+display:none !important;
+
 }
