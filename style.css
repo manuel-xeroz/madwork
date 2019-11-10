@@ -86,7 +86,7 @@ h4{
     text-transform: uppercase;
     font-size: 50%;
     text-align: center;
-    margin-left: -800px;
+    margin-left: -950px;
     font-family: 'helveticaNeue', sans-serif;
     font-weight: bold;
     color: #1f222b;
@@ -411,27 +411,31 @@ h4{
 
 .sect_work {
     background-color: #000000;
-    padding: 85px 110px 70px 110px;
+    padding: 85px 105px 70px 105px;
     width: 100%;
 }
 
 .work_text {
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 170%;
-    font-weight: 400;
-    margin-left: 120px;
-    margin-top: 30px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 15px;
     color: white;
 }
 
 .work {
     margin-top: 40px;
+    display: flex;
+}
+.image:first-child {
+    margin-right: 30px;
 }
 
 
 .image{
     height: 360px;
-    width: 100%;
+    width: 555px;
     overflow: hidden;
     background-color: black;
 }
@@ -447,19 +451,21 @@ h4{
 }
 
 .image2 {
-    margin: 0;
-    width: 100%;
+    width: 1140px;
     height: 360px;
     overflow: hidden;
     background-color: black;
 }
 
 .work2 {
-     margin-top: 3px;
+    width: 100%;
+    margin-top: 30px;
 }
 .work3 {
-    margin-top: 3px;
+    margin-top: 30px;
     margin-bottom: 50px;
+    display: flex;
+    
 }
 .more {
     background-color: #ffffff;
@@ -541,15 +547,16 @@ h4{
 }
 
 .address {
-    z-index: 99999;
-    width: 40%;
+    z-index: 99;
+    width: 607px;
     background-color: #0091ff;
     height: 514px;
+    margin-left: -150px;
 }
 
 .map {
     position: absolute;
-    width: 70%;
+    width: 900%;
     height: 610px;
     margin-left: 450px;
 }
@@ -563,6 +570,7 @@ h4{
 .add {
     display: flex;
     height: 550px;
+    width: 1140px;
 }
 
 .address {
@@ -1038,4 +1046,23 @@ display:none !important;
 .mad-foot {
     width: 100%;
     margin-top: 45px;
+}
+
+.now-div {
+    width: 1140px;
+}
+
+
+
+.now-fod {
+    position: relative;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
+.part-div {
+    position: relative;
+    max-width: 1140px;
+    margin: 0px auto;
 }
