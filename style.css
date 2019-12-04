@@ -1034,8 +1034,8 @@ display:none !important;
 
 .title-business {
     margin-top: 30px;
-    position: relative;
-    right: -425px;
+    display: inline-block;
+    padding-left: 425px;
     
 }
 
@@ -1059,6 +1059,7 @@ display:none !important;
     background-color: #000000;
     border: 1px solid  #000000;
     color: #fff;
+    text-align: right;
     font-family: 'Work Sans', sans-serif;
     -webkit-transition: background-color 0.2s, color 0.2s, border 0.2s;
     transition: background-color 0.2s, color 0.2s, border 0.2s;
