@@ -1041,6 +1041,7 @@ display:none !important;
 
 .business-div {
     display: flex;
+    margin-top: -3px;
 }
 
 .business-text {
