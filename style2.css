@@ -33,10 +33,10 @@
 .title-sect{
     width: 100%;
     position: absolute;
+    top: 35%;
 }
 
 .title h1 {
-    margin-top: 220px;
     font-size: 45px;
     letter-spacing: 2px;
 }
@@ -153,7 +153,7 @@
 }
 
 .contact {
-    padding: 80px 80px 80px 80px ;
+    padding: 60px 80px 80px 80px ;
     background-color: #f6f7f9;
    
 }
