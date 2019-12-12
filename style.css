@@ -288,7 +288,7 @@ h4{
   margin-top: 18px;
   font-size: 30px;
   font-family: "Work sans", sans-serif;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .create {
@@ -489,7 +489,7 @@ h4{
     margin-top: 30px;
     margin-bottom: 50px;
     display: flex;
-    
+
 }
 .more {
     background-color: #ffffff;
@@ -801,6 +801,7 @@ footer p {
     padding-top: 13px;
     float: left;
 }
+
 .madbtn a{
   color: white;
   background: #0091FF;
@@ -809,6 +810,11 @@ footer p {
   font-size: 14px;
   font-family: 'Work Sans', sans-serif;
   text-decoration: none;
+}
+.madbtn a:hover{
+  color: #0091FF;
+  background: #fff;
+  outline: 1px solid #0091FF;
 }
 .madmenu{
   width: 100px;
@@ -978,7 +984,7 @@ display:none !important;
     margin-top: 25px;
 }
 .serv {
-    
+
 }
 
 .title-text {
@@ -1036,7 +1042,7 @@ display:none !important;
     margin-top: 30px;
     display: inline-block;
     padding-left: 425px;
-    
+
 }
 
 .business-div {
@@ -1051,7 +1057,7 @@ display:none !important;
   color: #000000;
 }
 
-.business-btn {  
+.business-btn {
     width: 213px;
     height: 55px;
     padding: 15px 60px;
@@ -1070,7 +1076,7 @@ display:none !important;
     background-color: #fff;
     font-weight: 600;
     color: #000000;
-    
+
 }
 
 .logo-cls {
