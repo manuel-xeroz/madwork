@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -29,7 +31,7 @@
        <div class="madheader">
               <div class="madheader-inner">
                 <div class="madlogo">
-                  <img src="logo-white.svg" alt="madsuite" class="madlogo-file">
+                  <a href="index.html"><img src="logo-white.svg" alt="madsuite" class="madlogo-file"></a> 
                 </div>
                 <div class="madlinks">
                   <div class="madmenu">
@@ -103,20 +105,45 @@
                 <p class="follow-us-text">Follow us<br>more closely.</p>
             </div>
             <div class="follow-us-image">
-                <div class="col span-1-of-4 image">
+                <div class="image">
                     <img src="lappy.jpg">
                 </div>
-                <div class="col span-1-of-4 image">
+                <div class="image">
                     <img src="lappy.jpg">
                 </div>
-                <div class="col span-1-of-4 image">
+                <div class="image">
                     <img src="lappy.jpg">
                 </div>
-                <div class="col span-1-of-4 image">
+                <div class="image">
+                    <img src="lappy.jpg">
+                </div>
+                <div class="image">
+                    <img src="lappy.jpg">
+                </div>
+                <div class="image">
+                    <img src="lappy.jpg">
+                </div>
+                <div class="image">
+                    <img src="lappy.jpg">
+                </div>
+                <div class="image">
+                    <img src="lappy.jpg">
+                </div>
+                <div class="image">
+                    <img src="lappy.jpg">
+                </div>
+                <div class="image">
+                    <img src="lappy.jpg">
+                </div>
+                <div class="image">
+                    <img src="lappy.jpg">
+                </div>
+                <div class="image">
                     <img src="lappy.jpg">
                 </div>
             </div>
         </div>
+        <div class="slick-dots"></div>
     </section>
     <footer class="footer-follow">
         <div class="row">
@@ -133,6 +160,21 @@
                     </div>
             </div>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.follow-us-image').slick({
+              dots:true,
+              autoplay: true,
+              autoplaySpeed: 2000,
+              slidesToShow: 4,
+              slidesToScroll: 1
+          });
+        });
+      </script>
 <script src="particles.js"></script>
 <script src="app.js"></script>
 
